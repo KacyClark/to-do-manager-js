@@ -1,0 +1,48 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:25vh;
+    background-color: rgb(230, 49, 49);
+}    
+header h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}    
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    width: 50%;
+}
+header input{
+    width: 60%;
+}
+.btn{
+    padding: 0.2rem;
+    width: 5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 75vh;
+    background-image: url(https://www.pexels.com/photo/white-painted-wall-1939485/);
+}
+ul#todoList{
+    background-color: rgb(186, 178, 178);
+    font-size: 2rem;
+    margin-top: 3rem;
+    width: 50%;
+}
